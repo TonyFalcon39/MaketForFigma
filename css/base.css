@@ -153,6 +153,9 @@ h6 {
     background: #313a46;
     font-weight: bold;
     display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 10;
 }
 .maketforfigma img{
     border-radius: 10px;
@@ -607,12 +610,12 @@ h6 {
     width: 100%;
     z-index: 101;
     background-color: rgba(255, 255, 255, 0);
-    padding: 20px 0px;
+    padding: 0px 0px 20px 0px;
     opacity: 1;
   }
   @media (max-width: 767.98px) {
     .header {
-      padding: 10px 0px 15px 0px;
+      padding: 0px 0px 15px 0px;
     }
   }
   .header.header-prefix {
@@ -637,6 +640,7 @@ h6 {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    padding-top: 15px;
   }
   .header__logo {
     z-index: 2;
@@ -687,7 +691,7 @@ h6 {
       left: 0;
       top: 0;
       opacity: 0;
-      padding: 90px 0px 0px 0px;
+      padding: 190px 0px 0px 0px;
       visibility: hidden;
       transition: all 0.3s ease 0s;
       text-align: center;
